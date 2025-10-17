@@ -1,0 +1,44 @@
+.product-card {
+  background-color: #fff; /* белый фон */
+  border: 1px solid #ddd; /* светлая граница */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* маленькая тень */
+  border-radius: 8px; /* скругленные углы карточки */
+  padding: 15px;
+  max-width: 250px;
+  margin: 10px;
+  font-family: Arial, sans-serif;
+  color: #000; /* черный текст */
+  text-align: center;
+}
+
+.product-card img {
+  max-width: 100%;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+
+.product-card p {
+  font-size: 16px;
+  margin: 0 0 8px 0;
+}
+
+.product-card h2 {
+  font-size: 20px;
+  margin: 0 0 12px 0;
+}
+
+.product-card button {
+  background-color: #000; /* черная кнопка */
+  color: #fff; /* белый текст */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px; /* скругленные кнопки */
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.product-card button:hover {
+  background-color: #444; /* немного светлее при наведении */
+}
